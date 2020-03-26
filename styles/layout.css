@@ -4,3 +4,15 @@
 .layout__content {
 	margin: 4rem;
 }
+
+.layout__large-space {
+	width: 12px;
+	height: 200px;
+}
+
+.layout__footer {
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.layout__hidden { display: none; }
