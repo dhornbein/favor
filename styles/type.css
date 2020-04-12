@@ -11,7 +11,7 @@ h1 {
 	font-family: 'Cormorant SC', Garamond, serif;
 	font-weight: 700;
 	font-size: 4rem;
-	color: #3c4760;
+	color: #601d46;
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
 	font-family: 'Cormorant Upright', Garamond, serif;
 	font-weight: 700;
 	font-size: 3.5rem;
-	color: #3c4760;
+	color: #424242;
 }
 
 h3 {
@@ -27,7 +27,7 @@ h3 {
 	font-family: 'Cormorant Upright', Garamond, serif;
 	font-weight: 400;
 	font-size: 3rem;
-	color: #3c4760;
+	color: #424242;
 }
 
 p,li {
@@ -36,7 +36,7 @@ p,li {
 	font-weight: 300;
 	font-size: 1.5rem;
 	line-height: 2rem;
-	color: #3c4760;
+	color: #282828;
 }
 
 .type__aside {
@@ -48,8 +48,8 @@ p,li {
 	font-weight: 600;
 	font-size: 1.5rem;
 	line-height: 2rem;
-	color: #3c4760;
-	border-left: 6px solid #656e82;
+	color: #282828;
+	border-left: 6px solid #601d46;
 }
 
 .type__taxonomy-title {
@@ -61,7 +61,7 @@ p,li {
 	font-size: 1.8rem;
 	line-height: 2rem;
 	/*color: red;*/
-	color: #3c4760;
+	color: #282828;
 }
 
 
