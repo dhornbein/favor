@@ -6,13 +6,28 @@ font-family: 'Cormorant SC', serif; 300, 700
 font-family: 'Cormorant Upright', serif; 400, 700
 */
 
-
 h1 {
 	font-family: 'Cormorant SC', Garamond, serif;
 	font-weight: 700;
-	font-size: 4rem;
+	font-size: 3rem;
+	line-height: 2.8rem;
 	color: #601d46;
 }
+
+@media (min-width: 600px) {
+	h1 {
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+}
+
+@media (min-width: 900px) {
+	h1 {
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+}
+
 
 h2 {
 	margin-top: 5rem;
