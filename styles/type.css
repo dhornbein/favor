@@ -30,6 +30,14 @@ h3 {
 	color: #424242;
 }
 
+h4 {
+	margin-bottom: -1.4rem;
+	font-family: 'Cormorant Upright', Garamond, serif;
+	font-weight: 400;
+	font-size: 2.2rem;
+	color: #424242;
+}
+
 p,li {
 	max-width: 800px;
 	font-family: 'Montserrat', Verdana, sans-serif;
@@ -64,7 +72,21 @@ p,li {
 	color: #282828;
 }
 
+.type__author {
+	display: block;
+	font-family: 'Montserrat', Verdana, sans-serif;
+	font-weight: 600;
+	font-size: 1.2rem;
+	color: #282828;
+}
 
+.type__date {  
+	display: block;
+	font-family: 'Cormorant Upright', Garamond, serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: #424242;
+}
 
 
 

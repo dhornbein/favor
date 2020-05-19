@@ -10,6 +10,16 @@
 	height: 200px;
 }
 
+.layout__medium-space {
+	width: 12px;
+	height: 100px;
+}
+
+.layout__small-space {
+	width: 12px;
+	height: 50px;
+}
+
 .layout__footer {
 	margin-left: 50%;
 	transform: translateX(-50%);
