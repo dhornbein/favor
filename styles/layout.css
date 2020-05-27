@@ -6,52 +6,64 @@
 
 }
 
-
-.layout__content {
-	margin: 2rem 10px;
-}
-
-.layout__large-space {
-	width: 12px;
-	height: 75px;
-}
-
-.layout__medium-space {
-	width: 12px;
-	height: 50px;
-}
-
-.layout__small-space {
-	width: 12px;
-	height: 20px;
-}
-
-@media (min-width: 600px) {
+/* ---------------------------------- CONTENT ----- */
 	.layout__content {
-		margin: 4rem 1rem;
+		margin: 2rem 10px;
 	}
 
 	.layout__large-space {
 		width: 12px;
-		height: 150px;
+		height: 75px;
 	}
 
 	.layout__medium-space {
 		width: 12px;
-		height: 75px;
+		height: 50px;
 	}
 
 	.layout__small-space {
 		width: 12px;
-		height: 25px;
-	}
-}
-
-@media (min-width: 900px) {
-	.layout__content {
-		margin: 4rem;
+		height: 20px;
 	}
 
+	@media (min-width: 600px) {
+		.layout__content {
+			margin: 4rem 1rem;
+		}
+
+		.layout__large-space {
+			width: 12px;
+			height: 150px;
+		}
+
+		.layout__medium-space {
+			width: 12px;
+			height: 75px;
+		}
+
+		.layout__small-space {
+			width: 12px;
+			height: 25px;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.layout__content {
+			margin: 4rem;
+		}
+	}
+/* ---------------------------------- CONTENT ----- */
+
+/* --------------------------------- FIRESIDE ----- */
+	.layout__fireside-banner {
+		padding: .5rem 0rem;
+		margin: -8px;
+		width: 100vw;
+		background-color: #747c81;
+		text-align: center;
+	}
+
+/* --------------------------------- FIRESIDE ----- */
 	.layout__large-space {
 		width: 12px;
 		height: 200px;
