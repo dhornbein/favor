@@ -1,5 +1,46 @@
 
 
+/* ================== IMPORTED FONTS ================== */
+	@font-face {
+	    font-family: "TT Bluescreens Thin";
+	    src: url("../fonts/TT Bluescreens Thin.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Thin Italic";
+	    src: url("../fonts/TT Bluescreens Thin Italic.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Regular";
+	    src: url("../fonts/TT Bluescreens Regular.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Italic";
+	    src: url("../fonts/TT Bluescreens Italic.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens DemiBold";
+	    src: url("../fonts/TT Bluescreens DemiBold.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens DemiBold Italic";
+	    src: url("../fonts/TT Bluescreens DemiBold Italic.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Black";
+	    src: url("../fonts/TT Bluescreens Black.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Black Italic";
+	    src: url("../fonts/TT Bluescreens Black Italic.otf");
+	}
+
 body {
 	background-color: #c1d1e1;
 }

@@ -62,6 +62,15 @@ p,li {
 	color: #282828;
 }
 
+a {
+	color: #e79f39;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #601d46;
+}
+
 .type__aside {
 	display: block;
 	margin-left: 5rem;

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/layout.css">
 	<link rel="stylesheet" type="text/css" href="styles/ui.css">
 	<link rel="stylesheet" type="text/css" href="styles/type.css">
+	<link rel="stylesheet" type="text/css" href="styles/nav.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+SC:300,700|Cormorant+Upright:400,700|Montserrat:300,300i,600,600i,900,900i&display=swap" rel="stylesheet">
 
@@ -26,8 +27,50 @@
 <body>
 
 	<div class="layout__fireside-banner">
-		<span class="type__fireside-ad">Join us every Wednesday at 6pm MST for the Favor Fireside! &#10165; <a href="https://us04web.zoom.us/j/5904429707" target="_zoom">ZOOM LINK</a></span>
+		<span class="type__fireside-ad">Join us every Wednesday at 6pm MST for the Favor Fireside! &#10165; <a href="https://us04web.zoom.us/j/5904429707" target="_zoom">ZOOM&nbsp;LINK</a></span>
 	</div><!-- FIRESIDE BANNER -->
+
+	<div class="nav__box">
+		<div class="nav__dropdown"><a href="./index.html"><span class="nav__dropdown-title">HOME</span></a>
+			<ul class="nav__list layout__hidden">
+			</ul>
+		</div><!-- HOME -->
+
+		<div class="nav__dropdown"><span id="nav-use-trigger" class="nav__dropdown-title">USE</span>
+			<ul id="nav-use-list" class="nav__list layout__hidden">
+				<li><a href=""><span class="nav__link">How-To</span></a></li>
+				<li><a href=""><span class="nav__link">Trading Floor</span></a></li>
+				<li><a href=""><span class="nav__link">Member Profiles</span></a></li>
+				<li><a href=""><span class="nav__link">Brokerage</span></a></li>
+			</ul>
+		</div><!-- USE DROPDOWN -->
+
+		<div class="nav__dropdown"><span id="nav-about-trigger" class="nav__dropdown-title">ABOUT</span>
+			<ul id="nav-about-list" class="nav__list layout__hidden">
+				<li><a href=""><span class="nav__link">Goal</span></a></li>
+				<li><a href=""><span class="nav__link">Core Concepts</span></a></li>
+				<li><a href=""><span class="nav__link">Team</span></a></li>
+			</ul>
+		</div><!-- ABOUT DROPDOWN -->
+
+		<div class="nav__dropdown"><span id="nav-details-trigger" class="nav__dropdown-title">DETAILS</span>
+			<ul id="nav-details-list" class="nav__list layout__hidden">
+				<li><a href=""><span class="nav__link">Governance</span></a></li>
+				<li><a href=""><span class="nav__link">Open Questions</span></a></li>
+				<li><a href=""><span class="nav__link">Phase1 Agreement</span></a></li>
+				<li><a href=""><span class="nav__link">Phase2 Plan</span></a></li>
+			</ul>
+		</div><!-- DETAILS DROPDOWN -->
+
+		<div class="nav__dropdown"><span id="nav-articles-trigger" class="nav__dropdown-title">ARTICLES</span>
+			<ul id="nav-articles-list" class="nav__list layout__hidden">
+				<li><a href=""><span class="nav__link">Generosity &#38; Scale</span></a></li>
+				<li><a href=""><span class="nav__link">Historical Context</span></a></li>
+				<li><a href=""><span class="nav__link">Permaculture &#38; Transition</span></a></li>
+				<li><a href=""><span class="nav__link"><em>all articles</em></span></a></li>
+			</ul>
+		</div><!-- ARTICLES DROPDOWN -->
+	</div>
 
 	<div class="layout__content">
 		<h1>The Favor Solutions Network</h1>
@@ -206,6 +249,55 @@
 	</div><!-- FOOTER -->
 
 	<div class="layout__large-space"></div>
+
+<script type="text/javascript">
+	
+	// NAV
+		const navUseTrigger = document.getElementById("nav-use-trigger");
+		const navUseList = document.getElementById("nav-use-list");
+
+		navUseTrigger.addEventListener("click", function() {
+			navUseList.classList.toggle("layout__hidden");
+			navAboutList.classList.add("layout__hidden");
+			navDetailsList.classList.add("layout__hidden");
+			navArticlesList.classList.add("layout__hidden");
+		});
+
+
+		const navAboutTrigger = document.getElementById("nav-about-trigger");
+		const navAboutList = document.getElementById("nav-about-list");
+
+		navAboutTrigger.addEventListener("click", function() {
+			navUseList.classList.add("layout__hidden");
+			navAboutList.classList.toggle("layout__hidden");
+			navDetailsList.classList.add("layout__hidden");
+			navArticlesList.classList.add("layout__hidden");
+		});
+
+
+		const navDetailsTrigger = document.getElementById("nav-details-trigger");
+		const navDetailsList = document.getElementById("nav-details-list");
+
+		navDetailsTrigger.addEventListener("click", function() {
+			navUseList.classList.add("layout__hidden");
+			navAboutList.classList.add("layout__hidden");
+			navDetailsList.classList.toggle("layout__hidden");
+			navArticlesList.classList.add("layout__hidden");
+		});
+
+
+		const navArticlesTrigger = document.getElementById("nav-articles-trigger");
+		const navArticlesList = document.getElementById("nav-articles-list");
+
+		navArticlesTrigger.addEventListener("click", function() {
+			navUseList.classList.add("layout__hidden");
+			navAboutList.classList.add("layout__hidden");
+			navDetailsList.classList.add("layout__hidden");
+			navArticlesList.classList.toggle("layout__hidden");
+		});
+
+</script>
+
 
 
 </body>
