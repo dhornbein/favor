@@ -1,0 +1,24 @@
+{% if page.id %}
+<meta name="description" content="{{ page.description }}">
+<meta name="author" content="{{ page.author }}">
+<meta name="keywords" content="{{ page.tags | join: ', ' }}">
+{% endif %}
+
+<link rel="stylesheet" type="text/css" href="{{ '/styles/brand.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ '/styles/layout.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ '/styles/ui.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ '/styles/type.css' | relative_url }}">
+
+<link
+    href="https://fonts.googleapis.com/css?family=Cormorant+SC:300,700|Cormorant+Upright:400,700|Montserrat:300,300i,600,600i,900,900i&display=swap"
+    rel="stylesheet">
+
+<!-- FAVICON -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+<link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#d49a00">
+<meta name="msapplication-TileColor" content="#d49a00">
+<meta name="theme-color" content="#ffffff">
+<!-- FAVICON -->
