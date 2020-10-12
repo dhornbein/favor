@@ -16,6 +16,7 @@
     background-color: #601d46;
     border-radius: 3px;
     color: #fff;
+    display: inline-block;
     padding: .5em 1em;
     text-decoration: none;
 }

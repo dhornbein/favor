@@ -23,6 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   situations of crisis further down our path.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://favor.solutions" # the base hostname & protocol for your site, e.g. http://example.com
+join:
+  url: https://docs.google.com/forms/d/e/1FAIpQLSdvdHAooqFDaadAuG9n-uWchdCYRhsDjMbkD_d9ojal2IowAA/viewform
 
 # Build settings
 markdown: kramdown

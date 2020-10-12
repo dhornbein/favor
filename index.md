@@ -5,6 +5,8 @@ layout: default
 
 # The Favor Solutions Network
 
+<a href="{{ '/join/' | relative_url }}" target="_blank" class="button">Apply to Join</a>
+
 ## Crisis elicits a flow of generosity.
 
 That flow of generosity can lead to burnout. Gift giving is very customary among social groups of a certain scale, one
