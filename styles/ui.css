@@ -11,3 +11,15 @@
     padding-right: .5rem;
     margin-right: .5rem;
 }
+
+.button {
+    background-color: #601d46;
+    border-radius: 3px;
+    color: #fff;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #2e0b21;
+}
