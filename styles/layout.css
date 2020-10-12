@@ -1,14 +1,153 @@
+@media (min-width: 600px) {
 
-
-
-.layout__content {
-	margin: 4rem;
 }
 
-.layout__large-space {
-	width: 12px;
-	height: 200px;
+@media (min-width: 900px) {
+
 }
+
+/* ---------------------------------- CONTENT ----- */
+	.layout__content {
+		margin: 2rem 10px;
+	}
+
+	.layout__content img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.layout__large-space {
+		width: 12px;
+		height: 75px;
+	}
+
+	.layout__medium-space {
+		width: 12px;
+		height: 50px;
+	}
+
+	.layout__small-space {
+		width: 12px;
+		height: 20px;
+	}
+
+	@media (min-width: 600px) {
+		.layout__content {
+			margin: 4rem 1rem;
+		}
+
+		.layout__large-space {
+			width: 12px;
+			height: 150px;
+		}
+
+		.layout__medium-space {
+			width: 12px;
+			height: 75px;
+		}
+
+		.layout__small-space {
+			width: 12px;
+			height: 25px;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.layout__content {
+			margin: 4rem;
+		}
+	}
+/* ---------------------------------- CONTENT ----- */
+
+/* ---------------------------------- NAV ----- */
+	.layout__nav {
+		margin: 10px;
+	}
+
+	@media (min-width: 600px) {
+		.layout__nav {
+			margin: 1rem;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.layout__nav {
+			margin: 10px 4rem;
+		}
+	}
+
+/* --------------------------------- FIRESIDE ----- */
+	.layout__fireside-banner {
+		padding: .5rem 0rem;
+		margin: -8px;
+		width: 100vw;
+		background-color: #747c81;
+		text-align: center;
+	}
+
+/* --------------------------------- FIRESIDE ----- */
+	.layout__large-space {
+		width: 12px;
+		height: 200px;
+	}
+
+	.layout__medium-space {
+		width: 12px;
+		height: 100px;
+	}
+
+	.layout__small-space {
+		width: 12px;
+		height: 50px;
+	}
+}
+
+/* --------------------------------- VIDEOS ----- */
+
+	.layout__video {
+		margin-left: 50%;
+		transform: translateX(-50%);
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+
+		width: 256px;
+		height: 144px;
+	}
+
+	@media (min-width: 440px) {
+		.layout__video {
+			width: 426px;
+			height: 240px;
+		}
+	}
+
+	@media (min-width: 660px) {
+		.layout__video {
+			width: 640px;
+			height: 360px;
+		}
+	}
+
+	@media (min-width: 750px) {
+		.layout__video {
+			width: 640px;
+			height: 360px;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.layout__video {
+			width: 854px;
+			height: 480px;
+		}
+	}
+
+	@media (min-width: 1080px) {
+		.layout__video {
+			width: 960px;
+			height: 540px;
+		}
+	}
 
 .layout__footer {
 	margin-left: 50%;
@@ -16,3 +155,16 @@
 }
 
 .layout__hidden { display: none; }
+
+.layout__sqg {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	height: 60px;
+}
+
+
+
+
+

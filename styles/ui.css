@@ -1,0 +1,13 @@
+/* ---------------------------------- NAV ----- */
+
+.ui__nav {}
+
+.ui__nav-item {
+    text-decoration: none;
+}
+
+.ui__nav-item:not(:last-child) {
+    border-right: 1px solid white;
+    padding-right: .5rem;
+    margin-right: .5rem;
+}
