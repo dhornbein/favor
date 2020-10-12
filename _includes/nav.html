@@ -1,6 +1,8 @@
 <nav class="layout__nav ui__nav">
     <p>
-        <a class="ui__nav-item" href="{{ '/' | relative_url }}">Home</a>
+        {% for nav in site.data.nav %}
+            <a class="ui__nav-item" href="{{ nav.url | relative_url }}">{{ nav.title }}</a>
+        {% endfor %}
         {% for post in site.posts %}
             <a class="ui__nav-item" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         {% endfor %}
