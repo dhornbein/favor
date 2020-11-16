@@ -13,7 +13,9 @@ tags:
 
 # Favor Solutions Onboarding
 
-Welcome to the **Favor Solutions Network** we are glad to have you! What follows is a guide to using Favor. This guide is for people who are already joined the network. If you would like to join [please contact Deacon](https://calendly.com/deacon-rodda/favor).
+Welcome to the **Favor Solutions Network** we are glad to have you! What follows is a guide to using Favor. This guide is for people who are already joined the network. If you're interested in joining click the button below:
+
+<a href="{{ '/join/' | relative_url }}" class="button">Apply to Join</a>
 
 ## **Key Terms**
 
